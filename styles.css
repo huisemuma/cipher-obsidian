@@ -1,0 +1,36 @@
+.cipher-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  vertical-align: baseline;
+}
+
+.cipher-masked {
+  font-family: var(--font-monospace);
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.cipher-revealed {
+  font-family: var(--font-monospace);
+  color: var(--text-accent);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.cipher-eye {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 2px;
+  font-size: 14px;
+  line-height: 1;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+  color: var(--text-muted);
+}
+
+.cipher-eye:hover {
+  opacity: 1;
+}

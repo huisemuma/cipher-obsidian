@@ -1,0 +1,9 @@
+{
+  "id": "cipher-decode",
+  "name": "Cipher Decode",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Decode cipher-encoded passwords inline in your notes",
+  "author": "You",
+  "isDesktopOnly": false
+}
